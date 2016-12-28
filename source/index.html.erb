@@ -10,7 +10,7 @@ title: PerICO
   <div class="col-xs-6 text-center">
     <p class="step">I</p>
     <p class="desc">Just add this line to your <kbd>&lt;head&gt;</kbd> tag.</p>
-    <pre><code>&lt;link rel="icons.min.css"&gt;</code></pre>
+    <pre><code>&lt;link href="https://rawgit.com/hashdog/perico/master/build/stylesheets/perico.css" rel="stylesheet"&gt;</code></pre>
   </div>
 
   <div class="col-xs-6 text-center">
@@ -32,7 +32,7 @@ title: PerICO
     </div>
   
     <div class="list">
-      <% Dir[File.dirname(__FILE__) + '/pericons/lang/*.svg'].each do |file| %>
+      <% Dir[File.dirname('../') + '/pericons/lang/*.svg'].each do |file| %>
         <%= partial "partials/icon-template", locals: {icoName: File.basename(file, ".*") } %>
       <% end %>
     </div>
