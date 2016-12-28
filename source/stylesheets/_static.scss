@@ -1,0 +1,132 @@
+
+
+html {
+  background: #eee;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.x2 {
+  font-size: 20pt;
+}
+.x3 {
+  font-size: 30pt;
+}
+.x4 {
+  font-size: 40pt;
+}
+.x5 {
+  font-size: 50pt;
+}
+.search-section {
+  margin: 30px 0;
+
+  .search-img {
+    width: 14px;
+  }
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+
+  .header {
+    background: rgba(204, 246, 174, 0.7);
+    padding: 30px 0px;
+    margin: 0;
+
+    .logo {
+      width: 150px;
+    }
+
+    h1 {
+      font-family: 'Baloo Thambi', cursive;
+      font-size: 40pt;
+      color: #458D4E;
+      margin: 15px 0;
+    }
+
+    p {
+      font-size: 12pt;
+    }
+  }
+}
+
+.container {
+  .title {
+    margin: 60px 0;
+    text-align: center;
+    font-size: 28pt;
+    color: #666;
+  }
+  .step {
+    color: #666;
+    font-size: 40pt;
+    border-radius: 50%;
+    border: 1px solid #999;
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 15px;
+    font-family: serif;
+  }
+  .desc {
+    margin: 30px 0;
+    font-size: 12pt;
+
+    kbd {
+      background: #458D4E;
+    }
+  }
+}
+.single-icon {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  i {
+    color: #555;
+  }
+
+  pre {
+    margin: 15px 0;
+    padding: 4px 0;
+    font-size: 12px;
+  }
+}
+
+.footer {
+  background: #444;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  p {
+    color: #ccc;
+    margin: 15px 0;
+  }
+
+  .love {
+    width: 12px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      list-style: none;
+      margin-left: 15px;
+
+      &:first-of-type{
+        margin-left: -15px;
+      }
+
+      a {
+        color: #fff;
+
+        &:hover {
+          text-decoration: none;
+          border-bottom: 1px #fff dotted;
+        }
+      }
+    }
+  }
+}

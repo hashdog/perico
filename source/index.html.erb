@@ -1,0 +1,42 @@
+---
+title: PerICO
+---
+
+<div class="container">
+  <div class="row">
+  <div class="col-xs-12">
+    <h1 class="title">Quick instalation guide!</h1>
+  </div>
+  <div class="col-xs-6 text-center">
+    <p class="step">I</p>
+    <p class="desc">Just add this line to your <kbd>&lt;head&gt;</kbd> tag.</p>
+    <pre><code>&lt;link rel="icons.min.css"&gt;</code></pre>
+  </div>
+
+  <div class="col-xs-6 text-center">
+    <p class="step">II</p>
+    <p class="desc">And choose your lang of the list, just replacing in your <kbd>&lt;body&gt;</kbd> the name:</p>
+    <pre><code>&lt;i class="perico-react"&gt;&lt;/i&gt;</code></pre>
+  </div>
+
+
+  <hr>
+
+  <div id="perico-list">
+  
+    <div class="col-xs-12 search-section">
+      <div class="input-group">
+      <span class="input-group-addon"><img src="images/search.svg" class="search-img"></span>
+      <input type="text" class="form-control search" placeholder="Instant search...">
+      </div>
+    </div>
+  
+    <div class="list">
+      <% Dir[File.dirname(__FILE__) + '/pericons/lang/*.svg'].each do |file| %>
+        <%= partial "partials/icon-template", locals: {icoName: File.basename(file, ".*") } %>
+      <% end %>
+    </div>
+  </div>
+
+  </div>
+</div>
