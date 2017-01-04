@@ -43,4 +43,6 @@ configure :build do
   activate :directory_indexes
   # Minify Javascript on build
   activate :minify_javascript
+
+  set :build_dir, 'gh-pages'
 end

@@ -6,6 +6,13 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
 }
+a {
+  color: #21A016;
+  
+  &:hover {
+    color: #1F9115;
+  }
+}
 .x2 {
   font-size: 20pt;
 }
@@ -30,7 +37,7 @@ body {
   padding: 0;
 
   .header {
-    background: rgba(204, 246, 174, 0.7);
+    background: #FFD45C;
     padding: 30px 0px;
     margin: 0;
 
@@ -95,8 +102,15 @@ body {
   }
 }
 
+.thanks {
+  clear: both;
+  text-align: right;
+  margin-bottom: 40px;
+}
+
 .footer {
-  background: #444;
+  background: url('../images/footprints.png') no-repeat  #444;
+  background-position: center right;
   padding-top: 30px;
   padding-bottom: 30px;
 
