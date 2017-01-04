@@ -44,5 +44,5 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 
-  set :build_dir, 'gh-pages'
+  set :build_dir, 'fonts'
 end

@@ -1,25 +1,14 @@
 @font-face {
   font-family: 'perico';
-  src:  url('https://rawgit.com/hashdog/perico/master/build/fonts/perico.eot');
-  src:  url('https://rawgit.com/hashdog/perico/master/build/fonts/perico.eot?3d2a28#iefix') format('embedded-opentype'),
-    url('https://rawgit.com/hashdog/perico/master/build/fonts/perico.ttf?3d2a28') format('truetype'),
-    url('https://rawgit.com/hashdog/perico/master/build/fonts/perico.woff?3d2a28') format('woff'),
-    url('https://rawgit.com/hashdog/perico/master/build/fonts/perico.svg?3d2a28#perico') format('svg');
+  src:  url('https://cdn.rawgit.com/hashdog/perico/tree/master/fonts/perico.eot');
+  src:  url('https://cdn.rawgit.com/hashdog/perico/tree/master/fonts/perico.eot?3d2a28#iefix') format('embedded-opentype'),
+    url('https://cdn.rawgit.com/hashdog/perico/tree/master/fonts/perico.ttf?3d2a28') format('truetype'),
+    url('https://cdn.rawgit.com/hashdog/perico/tree/master/fonts/perico.woff?3d2a28') format('woff'),
+    url('https://cdn.rawgit.com/hashdog/perico/tree/master/fonts/perico.svg?3d2a28#perico') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-// Dev mode
-// @font-face {
-//   font-family: 'perico';
-//   src:  url('../fonts/perico.eot');
-//   src:  url('../fonts/perico.eot?3d2a28#iefix') format('embedded-opentype'),
-//     url('../fonts/perico.ttf?3d2a28') format('truetype'),
-//     url('../fonts/perico.woff?3d2a28') format('woff'),
-//     url('../fonts/perico.svg?3d2a28#perico') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
-// }
 [class^="perico-"], [class*=" perico-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'perico' !important;
