@@ -14,7 +14,7 @@ Well that's over! In ONE simple step you can use a lot of programming icons and 
 `<i class="perico-angular"></i>`
 
 # Icons list
-You can see the list over <a href="#">perico.hashdog.com</a>.
+You can see the list over <a href="http://blog.hashdog.com/perico">blog.hashdog.com/perico</a>.
 <img src="https://cdn.rawgit.com/hashdog/perico/master/images/screen-list.png" width="100%" align="center">
 
 
