@@ -1,4 +1,5 @@
-
+$break-small: 480px;
+$break-tablet: 1024px;
 
 html {
   background: #eee;
@@ -13,18 +14,6 @@ a {
     color: #1F9115;
   }
 }
-.x2 {
-  font-size: 20pt;
-}
-.x3 {
-  font-size: 30pt;
-}
-.x4 {
-  font-size: 40pt;
-}
-.x5 {
-  font-size: 50pt;
-}
 .search-section {
   margin: 30px 0;
 
@@ -36,24 +25,87 @@ a {
   margin: 0;
   padding: 0;
 
+  .palmtree {
+    background: url("../images/palm-tree.png") no-repeat;
+    height: 273px;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 45px;
+    z-index: 1;
+    pointer-events: none;
+
+    &.left {
+      right: initial;
+      left: 0;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+    }
+
+    @media screen and (max-width: $break-tablet) {
+      display: none;
+    }    
+  }
+
+  .navegation {
+    background: #FFD45C;
+    
+    nav {
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+      ul {
+        margin: 0 15px 0 0;
+        padding: 0;
+
+        li {
+          display: inline-block;
+          list-style: none;
+          margin-right: 15px;
+
+          a {
+            border: none;
+
+            &:hover {
+              border: none;
+              text-decoration: none;
+              border-bottom: 1px #1F9115 dotted;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
   .header {
     background: #FFD45C;
-    padding: 30px 0px;
+    padding: 0 30px 0px;
     margin: 0;
+    border-bottom: 3px solid #E0B130;
 
     .logo {
       width: 150px;
     }
 
     h1 {
-      font-family: 'Baloo Thambi', cursive;
+      font-family: 'Archivo Black', sans-serif;
       font-size: 40pt;
       color: #458D4E;
       margin: 15px 0;
     }
 
     p {
-      font-size: 12pt;
+      font-size: 9pt;
+      word-spacing: 5px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 15px 0;
+      color: #000;
     }
   }
 }
@@ -64,6 +116,11 @@ a {
     text-align: center;
     font-size: 28pt;
     color: #666;
+
+    @media screen and (max-width: $break-small) {
+      font-size: 20pt;
+      margin: 30px 0;
+    }  
   }
   .step {
     color: #666;
@@ -74,6 +131,7 @@ a {
     width: 80px;
     margin-bottom: 15px;
     font-family: serif;
+
   }
   .desc {
     margin: 30px 0;
@@ -106,11 +164,33 @@ a {
   clear: both;
   text-align: right;
   margin-bottom: 40px;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 9pt;
+    text-align: center;
+  }
+}
+
+.footprints {
+  background: url(../images/footprints.png) no-repeat;
+  width: 60px;
+  height: 110px;
+  position: absolute;
+  left: 50%;
+  pointer-events: none;
+  position: absolute;
+  margin-left: 200px;
+  z-index: 1;
+  transform: rotate(30deg);
+
+  @media screen and (max-width: $break-small) {
+    display: none;
+  }  
 }
 
 .footer {
-  background: url('../images/footprints.png') no-repeat  #444;
-  background-position: center right;
+  background: #444;
+  background-position: left center;
   padding-top: 30px;
   padding-bottom: 30px;
 
