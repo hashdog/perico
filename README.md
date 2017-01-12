@@ -8,14 +8,21 @@ How many times did you have to look for an icon of programming languages on the 
 Well that's over! In ONE simple step you can use a lot of programming icons and frameworks!
 
 # (Very) Quick instalation
-0. Just add this line to your `<head>` tag: <br>
 
-`<link href="https://hashdog.io/perico/stylesheets/perico.css" rel="stylesheet">`
+1. Just add this line to your `<head>` tag:
 
-0. And choose your icon lang of the list, just replace the name of the icon in your `<body>`: <br>
-`<i class="perico-angular"></i>`
+  ```
+  <link href="https://hashdog.io/perico/stylesheets/perico.css" rel="stylesheet">
+  ```
+
+2. And choose your icon lang of the list, just replace the name of the icon in your `<body>`:
+
+  ```
+  <i class="perico-angular"></i>
+  ```
 
 # Icons list
+
 You can see the list over <a href="http://perico.hashdog.io">perico.hashdog.io</a>.
 <img src="http://perico.hashdog.io/images/screen-list.png" width="100%" align="center">
 
