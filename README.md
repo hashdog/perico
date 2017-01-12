@@ -1,8 +1,8 @@
 <p align="center" style="text-align: center;">
-  <img src="https://cdn.rawgit.com/hashdog/perico/master/images/perico-logo.svg" width="180px" align="center">
+  <img src="http://perico.hashdog.io/images/perico-logo.svg" width="180px" align="center">
 </p>
 <h1 align="center">
-perICO
+PerICO
 </h1>
 How many times did you have to look for an icon of programming languages on the web? Finding poor quality images to upload them to the project and give them the styles to look good!
 Well that's over! In ONE simple step you can use a lot of programming icons and frameworks!
@@ -14,8 +14,8 @@ Well that's over! In ONE simple step you can use a lot of programming icons and 
 `<i class="perico-angular"></i>`
 
 # Icons list
-You can see the list over <a href="http://blog.hashdog.com/perico">blog.hashdog.com/perico</a>.
-<img src="https://cdn.rawgit.com/hashdog/perico/master/images/screen-list.png" width="100%" align="center">
+You can see the list over <a href="http://perico.hashdog.io">perico.hashdog.io</a>.
+<img src="http://perico.hashdog.io/images/screen-list.png" width="100%" align="center">
 
 
 # Contributors

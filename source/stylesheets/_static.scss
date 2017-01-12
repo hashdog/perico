@@ -159,7 +159,14 @@ a {
     font-size: 12px;
   }
 }
-
+.hiddenImageCover {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
 .thanks {
   clear: both;
   text-align: right;

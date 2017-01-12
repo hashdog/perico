@@ -5,8 +5,16 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
     <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Facebook social -->
+    <meta property="og:url" content="http://perico.hashdog.io" />
+    <meta property="og:type"  content="website" />
+    <meta property="og:title" content="PerICO: Programming Lang Icons Pack" />
+    <meta property="og:description" content="How many times did you spend time looking for a good programming icon?" />
+    <meta property="og:image" content="http://perico.hashdog.io/images/cover-social.jpg" />
+
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Font Icons" %></title>
+    <title>PerICO: Programming Lang Icon</title>
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
@@ -16,7 +24,7 @@
   </head>
 
   <body class="<%= page_classes %>">
-    
+    <img src="images/cover-social.jpg" title="Perico cover image" class="hiddenImageCover">
     <%= partial "partials/header" %>
 
     <%= yield %>
