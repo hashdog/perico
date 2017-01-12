@@ -9,7 +9,9 @@ Well that's over! In ONE simple step you can use a lot of programming icons and 
 
 # (Very) Quick instalation
 0. Just add this line to your `<head>` tag: <br>
-`<link href="https://rawgit.com/hashdog/perico/master/stylesheets/perico.css" rel="stylesheet">`
+
+`<link href="https://hashdog.io/perico/stylesheets/perico.css" rel="stylesheet">`
+
 0. And choose your icon lang of the list, just replace the name of the icon in your `<body>`: <br>
 `<i class="perico-angular"></i>`
 
