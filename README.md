@@ -32,3 +32,7 @@ Feel free to improve this source or send us an advice, question or request to <a
 
 # License
 This simple tool is Open Source. Thanks to <a href="https://hashdog.com">Hashdog</a> for that.
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/hashdog/perico/badge.svg?style=beer-square)](https://beerpay.io/hashdog/perico)  [![Beerpay](https://beerpay.io/hashdog/perico/make-wish.svg?style=flat-square)](https://beerpay.io/hashdog/perico?focus=wish)
