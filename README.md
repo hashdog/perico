@@ -24,7 +24,7 @@ Well that's over! In ONE simple step you can use a lot of programming icons and 
 # Icons list
 
 You can see the list over <a href="http://perico.hashdog.io">perico.hashdog.io</a>.
-<img src="http://perico.hashdog.io/images/screen-list.png" width="100%" align="center">
+<img src="http://perico.hashdog.io/images/icons-list.png" width="100%" align="center">
 
 
 # Contributors
@@ -32,10 +32,6 @@ Feel free to improve this source or send us an advice, question or request to <a
 
 # License
 This simple tool is Open Source. Thanks to <a href="https://hashdog.com">Hashdog</a> for that.
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/hashdog/perico/badge.svg?style=beer-square)](https://beerpay.io/hashdog/perico)  [![Beerpay](https://beerpay.io/hashdog/perico/make-wish.svg?style=flat-square)](https://beerpay.io/hashdog/perico?focus=wish)
 ## Support on Beerpay
 Hey dude! Help me out for a couple of :beers:!
 
