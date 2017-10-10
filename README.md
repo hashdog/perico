@@ -44,3 +44,7 @@ Hey dude! Help me out for a couple of :beers:!
 Hey dude! Help me out for a couple of :beers:!
 
 [![Beerpay](https://beerpay.io/hashdog/perico/badge.svg?style=beer-square)](https://beerpay.io/hashdog/perico)  [![Beerpay](https://beerpay.io/hashdog/perico/make-wish.svg?style=flat-square)](https://beerpay.io/hashdog/perico?focus=wish)
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/hashdog/perico/badge.svg?style=beer-square)](https://beerpay.io/hashdog/perico)  [![Beerpay](https://beerpay.io/hashdog/perico/make-wish.svg?style=flat-square)](https://beerpay.io/hashdog/perico?focus=wish)
